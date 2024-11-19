@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+
+
+    </head>
+
+
+
+    <body>
+        <script>
+            let nombre= "juan";
+            let apellido="sin miedo";
+            let saludos="hola" + nombre +" " + apellido;
+
+            document.write (saludos);
+
+            let x = 7;
+            let y = 10;
+
+            document.write("x es igual a y", x == y, "<br>");
+            document.write("x es diferente a y", x != y,"<br>");
+            document.write("x es mayor a y",x > y);
+            document.write("x es menor igual a y", x <=y, "<br>");
+          
+          let esAdulto= true;
+          let tieneDinero=false;
+          let puedeEntrar=esAdulto&& tieneDinero;
+          let puedeSalir= esAdulto ||  tieneDinero;
+
+          document.write("puede entrar a la discoteca ", puedeEntrar,"<br>");
+          document.write("puedo Salir",puedeSalir);
+
+          let b=5;
+          let a=10;
+          let suma= a+b;
+          let resta= a-b;
+          let multiplicacion= a*b;
+          let division= a/b;
+
+          document.write("la suma es:", suma, "<br>");
+          document.write("la resta es:",resta,"<br>");
+          document.write("la multiplicacion es. ",multiplicacion, "<br>");
+          document.write("la division es: ",division,"<br>");
+
+          let nombres= "juan carlos";
+          let edad= prompt("por favor ingrese su edad");
+          let esEstudiante=true;
+
+          let respuesta= edad > 18 && esEstudiante;
+
+        document.write("recibe el bono", respuesta);
+
+    
+     </script> 
+</body>
+</html>
+
